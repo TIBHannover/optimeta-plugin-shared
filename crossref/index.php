@@ -1,6 +1,6 @@
 <?php
 /**
- * @file index.php
+ * @file crossref/index.php
  *
  * Copyright (c) 2021+ TIB Hannover
  * Copyright (c) 2021+ Gazi Yucel
@@ -10,4 +10,3 @@
  *
  * @brief 
  */
-
