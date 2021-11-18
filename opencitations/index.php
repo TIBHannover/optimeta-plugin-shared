@@ -1,7 +1,6 @@
 <?php
-//
 /**
- * @file index.php
+ * @file opencitations/index.php
  *
  * Copyright (c) 2021+ TIB Hannover
  * Copyright (c) 2021+ Gazi Yucel
