@@ -2,19 +2,5 @@
   "name": "optimeta/shared",
   "description": "Shared library for optimeta citations and geo plugin",
   "license": "GPL-3.0-or-later",
-  "keywords": ["Optimeta", "Shared", "Citations"],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/addwiki/mediawiki-api"
-    }
-  ],
-  "require": {
-    "addwiki/mediawiki-api": "3.0.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Addwiki\\Mediawiki\\Api\\": "src/"
-    }
-  }
+  "keywords": ["Optimeta", "Shared", "Citations"]
 }
