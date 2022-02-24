@@ -1,5 +1,5 @@
 {
-  "name": "tibhannover/optimeta-plugin-shared",
+  "name": "optimeta/shared",
   "type": "library",
   "description": "Shared library for optimeta citations and geo plugin",
   "license": "GPL-3.0-or-later",
