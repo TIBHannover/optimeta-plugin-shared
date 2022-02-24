@@ -1,0 +1,6 @@
+{
+  "name": "optimeta/shared",
+  "description": "Shared library for optimeta citations and geo plugin",
+  "license": "GPL-3.0-or-later",
+  "keywords": ["Optimeta", "Shared", "Citations"]
+}
