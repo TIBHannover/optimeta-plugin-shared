@@ -1,6 +1,12 @@
 {
-  "name": "optimeta/shared",
+  "name": "tibhannover/optimeta-plugin-shared",
+  "type": "library",
   "description": "Shared library for optimeta citations and geo plugin",
   "license": "GPL-3.0-or-later",
-  "keywords": ["Optimeta", "Shared", "Citations"]
+  "keywords": ["Optimeta", "Shared"],
+  "autoload": {
+    "psr-4": {
+      "Optimeta\\Shared\\":"/"
+    }
+  }
 }
