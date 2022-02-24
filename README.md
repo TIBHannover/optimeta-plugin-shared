@@ -21,15 +21,23 @@ Add the following to your project composer.json
 ```
 
 ```
-  "require": {
-    "tibhannover/optimeta": "^v1.0.0"
-  }
+"require": {
+  "tibhannover/optimeta": "dev-main"
+}
 ```
-Execute the following command to install
+OR if you want to use a specific version
+```  
+"require": {
+  "tibhannover/optimeta": "^v1.0.0"
+}
+```
+Execute the following commands
+
+to install
 ```
 composer install
 ```
-or the following command to update
+or to update
 ```
 composer update
 ```
