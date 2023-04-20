@@ -6,30 +6,31 @@ use Optimeta\Shared\GitHub\GitHubBase;
 
 class OpenCitationsBase
 {
-    public function __construct()
-    {
+    /**
+     * GitHubBase object
+     * @var GitHubBase
+     */
+    protected GitHubBase $github;
 
+    public function __construct(string $owner, string $repository, string $token)
+    {
+        $this->github = new GitHubBase($owner, $repository, $token);
     }
 
     /**
      * @param string $title
      * @param string $body
      * @return int
-     * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function depositCitations(string $title, string $body): int
     {
         $issueId = 0;
 
-        if(empty($title) || empty($body)) return $issueId;
+        if (empty($title) || empty($body)) return $issueId;
 
-        $github = new GitHubBase();
-        $github->setUrl($this->url);
-        $github->setToken($this->token);
+        $issueId = $this->github->addIssue($title, $body);
 
-        $issueId = $github->addIssue($title, $body);
-
-        if(empty($issueId)) return 0;
+        if (empty($issueId)) return 0;
 
         return $issueId;
     }
