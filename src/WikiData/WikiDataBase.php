@@ -3,9 +3,8 @@ namespace Optimeta\Shared\WikiData;
 
 use GuzzleHttp\Exception\GuzzleException;
 use Http\Client\Exception;
-use Optimeta\Shared\OptimetaBase;
 
-class WikiDataBase extends OptimetaBase
+class WikiDataBase
 {
     /**
      * @desc Whether the bot is logged in
@@ -21,7 +20,6 @@ class WikiDataBase extends OptimetaBase
 
     public function __construct()
     {
-        parent::__construct();
     }
 
     /**

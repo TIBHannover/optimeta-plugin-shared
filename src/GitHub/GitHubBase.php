@@ -1,13 +1,14 @@
 <?php
+
 namespace Optimeta\Shared\GitHub;
 
-use Optimeta\Shared\OptimetaBase;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\GuzzleException;
 
-class GitHubBase extends OptimetaBase
+class GitHubBase
 {
     public function __construct()
     {
-        parent::__construct();
     }
 
     /**
