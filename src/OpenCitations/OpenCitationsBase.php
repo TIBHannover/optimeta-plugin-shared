@@ -1,14 +1,14 @@
 <?php
+
 namespace Optimeta\Shared\OpenCitations;
 
 use Optimeta\Shared\GitHub\GitHubBase;
-use Optimeta\Shared\OptimetaBase;
 
-class OpenCitationsBase extends OptimetaBase
+class OpenCitationsBase
 {
     public function __construct()
     {
-        parent::__construct();
+
     }
 
     /**

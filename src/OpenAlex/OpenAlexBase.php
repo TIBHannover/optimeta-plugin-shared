@@ -1,11 +1,12 @@
 <?php
+
 namespace Optimeta\Shared\OpenAlex;
 
+use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use Optimeta\Shared\OpenAlex\Model\Work;
-use Optimeta\Shared\OptimetaBase;
 
-class OpenAlexBase extends OptimetaBase
+class OpenAlexBase
 {
     /**
      * @desc The url to the api
@@ -15,7 +16,7 @@ class OpenAlexBase extends OptimetaBase
 
     public function __construct()
     {
-        parent::__construct();
+
     }
 
     /**
