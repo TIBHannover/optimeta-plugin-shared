@@ -1,8 +1,20 @@
 <?php
+/**
+ * @file plugins/generic/optimetaCitations/vendor/tibhannover/optimeta/src/WikiData/Model/Language.php
+ *
+ * Copyright (c) 2021+ TIB Hannover
+ * Copyright (c) 2021+ Gazi Yucel
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @class Language
+ * @ingroup plugins_generic_optimetacitations
+ *
+ * @brief Language on WikiData.
+ */
 
 namespace Optimeta\Shared\WikiData\Model;
 
-class Languages
+class Language
 {
     /**
      * Default language if none found
@@ -14,7 +26,7 @@ class Languages
      * Language mapping file
      * @var string
      */
-    public string $languagesJsonFile = 'Languages.json';
+    public string $languagesJsonFile = 'Language.json';
 
     /**
      * Language mapping OJS <> Wikidata
